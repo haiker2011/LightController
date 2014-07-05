@@ -1,0 +1,64 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    
+
+     <ImageButton
+         android:id="@+id/lightup"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/color_ring"
+         android:layout_alignParentLeft="true"
+         android:layout_alignParentTop="true"
+         android:background="@drawable/lightup" 
+         android:contentDescription="@string/lightup"
+         />
+     
+      <ImageButton
+         android:id="@+id/lightdown"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_above="@+id/color_ring"
+         android:layout_alignParentRight="true"
+         android:layout_alignParentTop="true"
+         android:background="@drawable/lightdown" 
+         android:contentDescription="@string/lightdown"
+         />
+
+     <ImageButton
+         android:id="@+id/saturationup"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/color_ring"
+         android:background="@drawable/saturationup" 
+         android:contentDescription="@string/saturationup"
+         />
+
+     <ImageButton
+         android:id="@+id/saturationdown"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lightdown"
+         android:layout_alignParentBottom="true"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/saturationup"
+         android:background="@drawable/saturationdown" 
+         android:contentDescription="@string/saturationdown"
+         />
+
+     <ImageButton
+         android:id="@+id/color_ring"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_centerHorizontal="true"
+         android:layout_centerVertical="true"
+         android:background="@drawable/color_ring" 
+         android:contentDescription="@string/color_ring"
+         />
+     
+</RelativeLayout>

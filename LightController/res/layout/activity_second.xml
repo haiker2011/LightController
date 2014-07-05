@@ -1,0 +1,93 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+     <ImageButton
+         android:id="@+id/saturationdown_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/saturationup_2"
+         android:layout_alignTop="@+id/lightdown_2"
+         android:background="@drawable/saturationdown_2"
+         android:contentDescription="@string/saturationdown_2" />
+
+     <ImageButton
+         android:id="@+id/saturationup_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentRight="true"
+         android:layout_alignTop="@+id/lightup_2"
+         android:layout_marginRight="27dp"
+         android:background="@drawable/saturationup_2"
+         android:contentDescription="@string/saturationup_2" />
+
+     <ImageButton
+         android:id="@+id/sceneup_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/lightup_2"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/sceneup_2"
+         android:contentDescription="@string/sceneup_2" />
+
+     <ImageButton
+         android:id="@+id/scenedown_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/saturationdown_2"
+         android:layout_centerHorizontal="true"
+         android:background="@drawable/scenedown_2"
+         android:contentDescription="@string/scenedown_2" />
+
+     <ImageButton
+         android:id="@+id/on_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lightup_2"
+         android:layout_alignParentTop="true"
+         android:layout_marginTop="19dp"
+         android:background="@drawable/on_2"
+         android:contentDescription="@string/on_2" />
+
+     <ImageButton
+         android:id="@+id/off_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignRight="@+id/saturationup_2"
+         android:layout_alignTop="@+id/on_2"
+         android:layout_marginRight="12dp"
+         android:background="@drawable/off_2"
+         android:contentDescription="@string/off_2" />
+
+     <ImageButton
+         android:id="@+id/lightup_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignParentLeft="true"
+         android:layout_below="@+id/color_ring"
+         android:layout_marginLeft="21dp"
+         android:background="@drawable/lightup_2"
+         android:contentDescription="@string/lightup_2" />
+
+     <ImageButton
+         android:id="@+id/lightdown_2"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignLeft="@+id/lightup_2"
+         android:layout_alignParentBottom="true"
+         android:background="@drawable/lightdown_2"
+         android:contentDescription="@string/lightdown_2" />
+
+     <ImageButton
+         android:id="@+id/color_ring"
+         android:layout_width="wrap_content"
+         android:layout_height="wrap_content"
+         android:layout_alignTop="@+id/on_2"
+         android:layout_centerHorizontal="true"
+         android:layout_marginTop="69dp"
+         android:background="@drawable/color_ring"
+         android:contentDescription="@string/color_ring" />
+     
+</RelativeLayout>
